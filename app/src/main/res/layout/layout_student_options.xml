@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:background="#DDDDDD"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEdit"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_edit"
+        app:iconTint="#1A237E"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCall"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appell"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_call"
+        app:iconTint="#4CAF50"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEmail"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_email"
+        app:iconTint="#FF9800"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSms"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_sms"
+        app:iconTint="#2196F3"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMap"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_on_map"
+        android:gravity="start|center_vertical"
+        app:icon="@drawable/ic_map"
+        app:iconTint="#607D8B"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDelete"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:gravity="start|center_vertical"
+        android:textColor="#F44336"
+        app:icon="@drawable/ic_delete"
+        app:iconTint="#F44336"/>
+
+</LinearLayout>

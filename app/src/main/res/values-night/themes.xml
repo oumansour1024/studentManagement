@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme for Night Mode -->
+    <style name="Base.Theme.StudentManagement" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color Primary -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Color Secondary -->
+        <item name="colorSecondary">@color/accent_dark</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background_dark</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/primary_variant_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/background_dark</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOnError">@android:color/white</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:textColorHint">@color/text_hint_dark</item>
+
+        <!-- Divider -->
+        <item name="android:dividerHorizontal">@color/divider_dark</item>
+        <item name="android:dividerVertical">@color/divider_dark</item>
+    </style>
+
+    <!-- App Theme for Night Mode -->
+    <style name="Theme.StudentManagement" parent="Base.Theme.StudentManagement" />
+</resources>

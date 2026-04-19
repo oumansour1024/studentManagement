@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+
+    <!-- Groupe de translation pour centrer le contenu (8, 8) -->
+    <group
+        android:translateX="8"
+        android:translateY="8">
+
+        <!-- Chapeau de diplômé -->
+        <path
+            android:fillColor="#283593"
+            android:pathData="M12,2L1,9l11,7l9,-5.73V17h2V9L12,2z" />
+
+        <!-- Corps de l'étudiant -->
+        <path
+            android:fillColor="#42A5F5"
+            android:pathData="M12,17c-2.67,0 -8,1.34 -8,4v1h16v-1C20,18.34 14.67,17 12,17z" />
+
+        <!-- Tête de l'étudiant -->
+        <path
+            android:fillColor="#42A5F5"
+            android:pathData="M12,16c2.21,0 4,-1.79 4,-4s-1.79,-4 -4,-4s-4,1.79 -4,4S9.79,16 12,16z" />
+    </group>
+</vector>

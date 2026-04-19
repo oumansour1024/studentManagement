@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?attr/colorSurface">
+
+        <!-- Top Row: Subject Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="#E8F5E9">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_subject"
+                    android:padding="10dp"
+                    app:tint="#4CAF50" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <!-- Nom de la matière -->
+                <TextView
+                    android:id="@+id/tvLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mathematics"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="?android:attr/textColorPrimary"/>
+
+                <!-- Coefficient (texte) -->
+                <TextView
+                    android:id="@+id/tvCoefficient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/coefficient_label"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+            <!-- Badge du poids/coefficient -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="?attr/colorPrimaryVariant"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:id="@+id/tvWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="@string/weight_normal"
+                    android:textColor="@android:color/white"
+                    android:textSize="11sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:background="?android:attr/listDivider"/>
+
+        <!-- Bottom Row: Action Buttons -->
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="@string/edit"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:drawableStart="@drawable/ic_edit"
+                android:drawableTint="@android:color/white"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:backgroundTint="#2196F3"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="@string/delete"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:drawableStart="@drawable/ic_delete"
+                android:drawableTint="@android:color/white"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:backgroundTint="#F44336"
+                app:cornerRadius="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

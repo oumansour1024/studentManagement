@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.StudentManagement" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color Primary -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Color Secondary -->
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background_light</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/primary_dark_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/background_light</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error_light</item>
+        <item name="colorOnError">@android:color/white</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="android:textColorHint">@color/text_hint_light</item>
+
+        <!-- Divider -->
+        <item name="android:dividerHorizontal">@color/divider_light</item>
+        <item name="android:dividerVertical">@color/divider_light</item>
+    </style>
+
+    <!-- Bottom Sheet Theme -->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+    <!-- App Theme -->
+    <style name="Theme.StudentManagement" parent="Base.Theme.StudentManagement" />
+</resources>

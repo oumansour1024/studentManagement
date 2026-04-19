@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">نظام إدارة الطلاب</string>
+    <string name="student_hub">مركز الطالب</string>
+
+    <!-- Common Actions -->
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="back">رجوع</string>
+
+    <!-- Status Messages -->
+    <string name="loading">جاري التحميل...</string>
+    <string name="error">خطأ</string>
+    <string name="success">نجاح</string>
+    <string name="warning">تحذير</string>
+    <string name="info">معلومات</string>
+
+    <!-- Dashboard / Welcome -->
+    <string name="welcome_back">مرحباً بعودتك!</string>
+    <string name="manage_prompt">ماذا تريد إدارة اليوم؟</string>
+    <string name="students_label">الطلاب</string>
+    <string name="subjects_label">المواد</string>
+    <string name="avg_grade_label">المعدل العام</string>
+    <string name="manage_student_records">إدارة سجلات الطلاب</string>
+    <string name="manage_subjects">إدارة المواد والمعاملات</string>
+    <string name="manage_grades">إدارة درجات الطلاب</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_dashboard">لوحة التحكم</string>
+    <string name="menu_students">الطلاب</string>
+    <string name="menu_subjects">المواد</string>
+    <string name="menu_grades">الدرجات</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_profile">الملف الشخصي</string>
+    <string name="menu_logout">تسجيل الخروج</string>
+
+    <!-- Students -->
+    <string name="students">الطلاب</string>
+    <string name="add_student">إضافة طالب</string>
+    <string name="add_new_student">إضافة طالب جديد</string>
+    <string name="edit_student">تعديل الطالب</string>
+    <string name="delete_student">حذف الطالب</string>
+    <string name="student_details">تفاصيل الطالب</string>
+    <string name="save_student">حفظ الطالب</string>
+
+    <!-- Student Fields -->
+    <string name="first_name">الاسم الأول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="hint_first_name">الاسم الأول</string>
+    <string name="hint_last_name">اسم العائلة</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="hint_phone_number">+33 6 12 34 56 78</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="hint_email">example@email.com</string>
+    <string name="address">العنوان</string>
+    <string name="hint_address">العنوان الكامل</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="get_current_location"> الحصول على الموقع الحالي</string>
+
+    <!-- Student CRUD Messages -->
+    <string name="student_added_successfully">تمت إضافة الطالب بنجاح</string>
+    <string name="student_updated_successfully">تم تعديل الطالب بنجاح</string>
+    <string name="student_deleted_successfully">تم حذف الطالب بنجاح</string>
+    <string name="error_adding_student">خطأ في إضافة الطالب</string>
+    <string name="error_updating_student">خطأ في تعديل الطالب</string>
+    <string name="error_deleting_student">خطأ في حذف الطالب</string>
+
+    <!-- Subjects -->
+    <string name="subjects">المواد</string>
+    <string name="add_subject">إضافة مادة</string>
+    <string name="add_new_subject">إضافة مادة جديدة</string>
+    <string name="edit_subject">تعديل المادة</string>
+    <string name="delete_subject">حذف المادة</string>
+    <string name="subject_details">تفاصيل المادة</string>
+    <string name="subject_name">اسم المادة</string>
+    <string name="coefficient">المعامل</string>
+    <string name="hint_subject_name">رياضيات، فرنسية، إلخ.</string>
+    <string name="hint_coefficient">1.0</string>
+
+    <!-- Subject CRUD Messages -->
+    <string name="subject_added_successfully">تمت إضافة المادة بنجاح</string>
+    <string name="subject_updated_successfully">تم تحديث المادة بنجاح</string>
+    <string name="subject_deleted_successfully">تم حذف المادة بنجاح</string>
+    <string name="error_adding_subject">خطأ في إضافة المادة</string>
+    <string name="error_updating_subject">خطأ في تحديث المادة</string>
+    <string name="error_deleting_subject">خطأ في حذف المادة</string>
+
+    <!-- Grades -->
+    <string name="notes">الدرجات</string>
+    <string name="grades">الدرجات</string>
+    <string name="add_note">إضافة درجة</string>
+    <string name="add_new_note">إضافة درجة جديدة</string>
+    <string name="edit_note">تعديل الدرجة</string>
+    <string name="delete_note">حذف الدرجة</string>
+    <string name="note_details">تفاصيل الدرجة</string>
+    <string name="note_value">الدرجة</string>
+    <string name="note_description">الوصف</string>
+    <string name="select_student">اختر طالباً</string>
+    <string name="select_subject">اختر مادة</string>
+    <string name="hint_note">الدرجة (0-20)</string>
+    <string name="average">المعدل</string>
+    <string name="filter_by_student">تصفية حسب الطالب</string>
+    <string name="all_students">جميع الطلاب</string>
+
+    <!-- Grades CRUD Messages -->
+    <string name="note_added_successfully">تمت إضافة الدرجة بنجاح</string>
+    <string name="note_updated_successfully">تم تعديل الدرجة بنجاح</string>
+    <string name="note_deleted_successfully">تم حذف الدرجة بنجاح</string>
+    <string name="error_adding_note">خطأ في إضافة الدرجة</string>
+    <string name="error_updating_note">خطأ في تعديل الدرجة</string>
+    <string name="error_deleting_note">خطأ في حذف الدرجة</string>
+    <string name="note_already_exists">توجد درجة موجودة مسبقاً لهذا الطالب في هذه المادة</string>
+
+    <!-- Login -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_error">بيانات دخول غير صالحة</string>
+    <string name="network_error">خطأ في الشبكة</string>
+    <string name="logged_out_successfully">تم تسجيل الخروج بنجاح</string>
+    <string name="are_you_sure_you_want_to_logout">هل أنت متأكد من رغبتك في تسجيل الخروج؟</string>
+    <string name="connectez_vous_pour_continuer">سجل الدخول للمتابعة</string>
+    <string name="identified">اسم المستخدم</string>
+    <string name="se_connected">اتصال</string>
+    <string name="_2026_student_hub">مركز الطالب © 2026</string>
+    <string name="mot_de_passe">كلمة المرور</string>
+
+    <!-- Profile -->
+    <string name="profile">الملف الشخصي</string>
+    <string name="profile_information">معلومات الملف الشخصي</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user_id">معرف المستخدم</string>
+    <string name="role">الدور</string>
+    <string name="administrator">مدير</string>
+    <string name="status">الحالة</string>
+    <string name="active">نشط</string>
+
+    <!-- Preferences -->
+    <string name="preferences">التفضيلات</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="dark_light_mode">الوضع الداكن/الفاتح</string>
+    <string name="choose_theme">اختر المظهر</string>
+    <string name="choose_language">اختر اللغة</string>
+    <string name="light_mode">الوضع الفاتح</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="follow_system">اتباع النظام</string>
+    <string name="light">فاتح</string>
+    <string name="dark">داكن</string>
+    <string name="system_default">النظام</string>
+
+    <!-- Languages -->
+    <string name="french">الفرنسية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+
+    <!-- Validation Errors -->
+    <string name="validation_required">هذا الحقل مطلوب</string>
+    <string name="validation_invalid_email">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="validation_invalid_phone">الرجاء إدخال رقم هاتف صحيح</string>
+    <string name="validation_note_range">يجب أن تكون الدرجة بين 0 و 20</string>
+    <string name="validation_positive_coefficient">يجب أن يكون المعامل موجباً</string>
+
+    <!-- GPS / Location -->
+    <string name="gps_permission_required">صلاحية GPS مطلوبة</string>
+    <string name="gps_permission_denied">تم رفض صلاحية GPS</string>
+    <string name="getting_location">جاري الحصول على الموقع...</string>
+    <string name="location_unavailable">الموقع غير متوفر</string>
+
+    <!-- Communication Actions -->
+    <string name="call">اتصال</string>
+    <string name="sms">رسالة</string>
+    <string name="view_on_map">عرض على الخريطة</string>
+
+    <!-- Search -->
+    <string name="search">بحث</string>
+    <string name="search_hint">ابحث عن طالب...</string>
+    <string name="no_results">لا توجد نتائج</string>
+
+    <!-- Confirm Dialogs -->
+    <string name="confirm_delete">تأكيد الحذف</string>
+    <string name="confirm_delete_student">حذف هذا الطالب؟</string>
+    <string name="confirm_delete_subject">حذف هذه المادة؟</string>
+    <string name="confirm_delete_note">حذف هذه الدرجة؟</string>
+    <string name="exit_app">الخروج من التطبيق</string>
+    <string name="confirm_exit">هل أنت متأكد من رغبتك في الخروج؟</string>
+
+    <!-- Miscellaneous -->
+    <string name="feature_coming_soon">الميزة قريباً</string>
+    <string name="refresh_complete">اكتمل التحديث</string>
+    <string name="data_saved">تم حفظ البيانات</string>
+    <string name="welcome_user">مرحباً بعودتك، %1$s!</string>
+    <string name="user_role_administrator">مدير</string>
+
+    <!-- Error Types -->
+    <string name="error_unknown">حدث خطأ غير متوقع</string>
+    <string name="error_network">تحقق من اتصالك بالإنترنت</string>
+    <string name="error_server">خطأ في الخادم. الرجاء المحاولة لاحقاً</string>
+    <string name="error_timeout">انتهت المهلة</string>
+    <string name="manage_records">إدارة السجلات</string>
+    <string name="material">المواد</string>
+    <string name="subject_information">معلومات المادة</string>
+    <string name="coefficient_determines_the_weight_of_this_subject_in_average_calculations">يحدد المعامل وزن هذه المادة في حسابات المعدل</string>
+    <string name="save_grade">حفظ الدرجة</string>
+    <string name="no_grades_yet_click_to_add_a_grade">لا توجد درجات بعد.\nانقر على + لإضافة درجة.</string>
+    <string name="no_students_yet_click_to_add_a_student">لا يوجد طلاب بعد.\nانقر على + لإضافة طالب.</string>
+    <string name="no_subjects_yet_click_to_add_a_subject">لا توجد مواد بعد.\nانقر على + لإضافة مادة.</string>
+    <string name="mathematics">الرياضيات</string>
+    <string name="weight_normal">المعامل: عادي</string>
+    <string name="appell">اتصال</string>
+
+    <string name="coefficient_label">المعامل: %s</string>
+</resources>
